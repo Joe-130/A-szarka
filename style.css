@@ -1,33 +1,59 @@
-body{
-    background-color:#F0F8FF ;
+body {
+  background-color: #f0f8ff;
 }
-p{
-    color:#00008B;
+p {
+  color: #00008b;
 }
-h2,h3{
-    color:#DC143C;
+h2,h3 {
+  color: #dc143c;
 }
-a,a:hover,a:active,a:visited{
-    color:#DC143C;
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #dc143c;
 }
-#szarkacimkep{
-    display: block;
-    margin: 0px auto 0px auto;
+.szarkacimkep {
+  display: block;
+  margin: 0px auto 0px auto;
 }
-hr{
-    width: 70%;
+hr {
+  width: 70%;
+  text-align: center;
+}
+#szarkatable {
+  width: 400px;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+#szarkatable2 {
+  width: 500px;
+  display: block;
+  margin: 0px auto 0px auto;
+  border-spacing: 6px;
+}
+#szarkatable2 td,th{
+    padding: 6px;
+}
+#sz_kep1,
+#sz_kep2 {
+  width: 230px;
+  height: 153px;
+  border: 1px solid #000;
+}
+#sz_kep2 {
+  float: right;
+}
+#elsooszlop{
+    width: 240px;
+}
+.kozep{
     text-align: center;
 }
-table{
-    border: 1px solid #000;
-    width: 400px;
-    display: block;
-    margin: 0px auto 0px auto;
+.jobb{
+    text-align: right;
 }
-#sz_kep1, #sz_kep2{
-    width: 230px;
-    height: 153px;
-}
-#sz_kep2{
-    float: right;
+.besorol_cimsor{
+    background-color:#00008b;
+    color:#f0f8ff;
 }
