@@ -1,0 +1,12 @@
+body{
+    background-color:#F0F8FF ;
+}
+p{
+    color:#00008B;
+}
+h2,h3{
+    color:#DC143C;
+}
+a,a:hover,a:active,a:visited{
+    color:#DC143C;
+}
